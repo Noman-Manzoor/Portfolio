@@ -1,0 +1,311 @@
+@media screen and (max-width: 1100px) {
+    .profile_card {
+        margin-top: 2rem;
+        /* flex-direction: row-reverse; */
+    }
+    .quoate {
+        right: 6vw;
+    }
+    .profile_card div img {
+        width: 180px;
+    }
+    html {
+        font-size: 12px;
+    }
+    #text {
+        background-color: aliceblue;
+        color: rgb(49, 48, 48);
+        padding: 1.5rem;
+        border-radius: 3rem;
+        opacity: 0.8;
+    }
+    #mid_card {
+        transform: translate(0px, 0px);
+    }
+    .price_card {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .center_content li {
+        list-style-type: none;
+    }
+    .center_content {
+        /* margin: 20px auto 20px 70px; */
+        margin: auto;
+        text-align: center;
+    }
+    .quoate {
+        right: 5.5vw;
+    }
+    .card {
+        width: 40vw;
+        margin-top: 3rem;
+    }
+    .card_container {
+        flex-wrap: wrap;
+    }
+    .menu {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bar,
+    select,
+    textarea {
+        width: 80%;
+        margin-top: 4px;
+        margin-bottom: 13px;
+    }
+    form {
+        padding: 0.8rem;
+    }
+    .skill_container {
+        width: 70vw;
+    }
+    .quoate {
+        right: 7vw;
+    }
+    .about_container {
+        /* border: 2px solid yellow; */
+        width: 70vw;
+        margin-top: 2rem;
+    }
+    .work {
+        margin-top: 2.5rem;
+    }
+    /* hamburger code */
+    .menu {
+        position: absolute;
+        top: 30vh;
+        width: 100vw;
+        z-index: 10;
+        visibility: hidden;
+    }
+    .menu ul {
+        width: 100vw;
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu ul li {
+        margin-bottom: 3rem;
+    }
+    .menu ul li a {
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .left {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+    #hamburger {
+        display: block;
+    }
+    .slideshow-container {
+        flex-wrap: wrap;
+    }
+    .mySlides {
+        width: 34vw;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .social {
+        font-size: xx-small;
+    }
+    .newsletter {
+        height: auto;
+        padding: 10px;
+    }
+    .newsletter>div>h2 {
+        text-align: center;
+        letter-spacing: 0px !important;
+        margin-top: 0.5rem;
+    }
+    #subscribe {
+        margin-top: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    #subscribe_bar {
+        width: 85%;
+        padding: 9px;
+        margin-bottom: 1rem;
+    }
+    .price_card {
+        width: 60vw;
+    }
+    .quoate {
+        right: 5.5vw;
+    }
+    #text {
+        font-size: medium;
+        letter-spacing: 1px;
+        margin: 0px auto 10px;
+    }
+    .profile_card {
+        margin-top: 0.5rem;
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .left {
+        visibility: hidden;
+    }
+    footer {
+        height: auto;
+        padding: 10px;
+    }
+    .navigation {
+        /* responsive code */
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .quoate {
+        right: 4vw;
+    }
+    .bar,
+    select,
+    textarea {
+        width: 100%;
+        margin-top: 4px;
+        margin-bottom: 13px;
+    }
+    form {
+        padding: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #text {
+        font-size: smaller;
+    }
+    .quoate {
+        right: 5.5vw;
+    }
+    .price_card {
+        width: 90vw;
+    }
+    .pricing_container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #mid_card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        width: 90vw;
+    }
+    .card_container {
+        padding: 8rem 1rem 4rem 1rem;
+    }
+    .card {
+        height: 50vh;
+        margin-right: auto;
+    }
+    #mid {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skill_container {
+        width: 90vw;
+    }
+    .about_container {
+        width: 90vw;
+    }
+    .slideshow-container {
+        padding: 5px;
+    }
+    .mySlides {
+        width: 50vw;
+        height: 52vh;
+        margin-top: 2rem;
+    }
+    #myBtn {
+        right: 20px;
+        z-index: 99;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    footer h2 {
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .skill_container {
+        width: 95vw;
+    }
+    .about_container {
+        width: 95vw;
+    }
+    .sub_container {
+        padding: 1.3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .offer_container h1 {
+        word-spacing: 0px;
+    }
+    .mySlides {
+        width: 85vw;
+        height: 57vh;
+        margin-top: 2rem;
+    }
+    .clients {
+        background-color: aliceblue;
+        padding: 2.5rem 0rem 2rem 0rem;
+    }
+    .pricing_container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .prev,
+    .next {
+        padding: 10px;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .prev {
+        left: 3px;
+    }
+    .next {
+        right: 3px;
+    }
+    #text {
+        background-color: rgb(25, 27, 29);
+        color: #fff;
+        padding: 3px 8px;
+        border-radius: 2rem;
+        opacity: 0.8;
+    }
+    .btn {
+        padding: 7px 10px;
+        font-size: small;
+    }
+    .card_container {
+        margin-top: 9rem;
+    }
+    .contact {
+        padding: 10px;
+        word-spacing: 0px;
+    }
+    form {
+        padding: 5px;
+    }
+}
